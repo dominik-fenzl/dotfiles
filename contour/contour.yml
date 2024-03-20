@@ -140,7 +140,7 @@ profiles:
         # If nothing is specified, the users' default login shell will be used.
         # But you may as well log in to a remote host.
         # shell: "ssh ubuntu-vm"
-        # shell: "/bin/bash"
+        shell: "/bin/zsh"
         # arguments: ["some", "optional", "arguments", "for", "the", "shell"]
 
         # Builtin SSH-client configuration.
@@ -404,12 +404,12 @@ profiles:
             regular:
                 # Font family defines the font family name, such as:
                 # Fira Code", "Courier New", or "monospace" (default).
-                family: "monospace"
+                family: "FiraCode Nerd Font Mono"
 
                 # Font weight can be one of:
                 #   thin, extra_light, light, demilight, book, normal,
                 #   medium, demibold, bold, extra_bold, black, extra_black.
-                weight: regular
+                weight: medium
 
                 # Font slant can be one of: normal, italic, oblique.
                 slant: normal
